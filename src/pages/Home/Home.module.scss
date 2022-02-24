@@ -1,0 +1,71 @@
+.home_wrapper {
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+
+  .main_heading {
+    line-height: 70px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #3d3d3d;
+    margin-bottom: 50px;
+    background-image: linear-gradient(
+      to top,
+      #1e3c72 0%,
+      #1e3c72 1%,
+      #2a5298 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    .grade_name,
+    .subject_name {
+      color: black;
+    }
+  }
+
+  .theme_name {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+      to top,
+      #1e3c72 0%,
+      #1e3c72 1%,
+      #2a5298 100%
+    );
+  }
+
+  .course_work {
+    font-size: 70px;
+    margin: 50px 0;
+    background-image: linear-gradient(
+      to top,
+      #1e3c72 0%,
+      #1e3c72 1%,
+      #2a5298 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .names_div {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .names_div > div {
+    flex: 1;
+    max-width: 450px;
+    transition: all .2s ease;
+    border: 2px solid #dadada;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .names_div > div:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 15px -4px #777777;
+  }
+}
