@@ -15,7 +15,6 @@
     font-weight: 600;
     max-width: 800px;
     margin: 50px auto;
-    padding: 20px 10px;
     color: #fff;
     background-image: linear-gradient(
       -225deg,
@@ -26,11 +25,17 @@
     transition: all 0.3s ease;
   }
 
-  .plans_block:nth-child(1){
-      text-align: center;
-      font-size: 23px;
-      
-      
+  .plans_block a {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    height: 100%;
+  }
+
+  .plans_block:nth-child(1) {
+    text-align: center;
+    font-size: 23px;
   }
 
   .plans_block:hover {

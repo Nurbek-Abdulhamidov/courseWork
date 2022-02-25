@@ -7,7 +7,10 @@ export const Home = () => {
         Ўзбекистон Республикаси Олий ва Ўрта Махсус Таълим Вазирлиги Тошкент
         Давлат Иқтисодиёт Университети Сиртқи таълим бўлими{" "}
         <span className={classes.grade_name}>“Менежмент ва маркетинг”</span>{" "}
-        кафедраси <span className={classes.subject_name}>“Маркетинг”</span>{" "}
+        кафедраси{" "}
+        <span className={classes.subject_name}>
+          “Иктисодий тахлил ва аудит”
+        </span>{" "}
         фанидан
       </h2>
       <h3 className={classes.theme_name}>
@@ -16,13 +19,12 @@ export const Home = () => {
       <h1 className={classes.course_work}>КУРС ИШИ </h1>
       <div className={classes.names_div}>
         <div className={classes.teacher_name}>
-          <span>Илмий раҳбар : </span>доц. Хакимов З.А.
+          <span>Илмий раҳбар : </span>доц. Мусахонзода Икромжон.
         </div>
         <div className={classes.teacher_name}>
           <span>
             Бажарди: Сиртқи таълим бўлими “Маркетинг (тармоклар ва хизматлар)”
-            таълим йўналиши ММР-51 гуруҳ талабаси  Насриддинова Мафтуна Шавкат
-            кизи.
+            таълим йўналиши ММР-51 гуруҳ талабаси Абдулхамидов Нурбек.
           </span>
         </div>
       </div>

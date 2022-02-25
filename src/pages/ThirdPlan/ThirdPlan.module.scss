@@ -1,0 +1,29 @@
+.ThirdPlan_heading {
+  font-size: 40px;
+  text-align: center;
+}
+
+.ThirdPlan_heading_sml {
+  text-align: center;
+  color: rgb(75, 83, 83);
+  margin: 30px 0;
+}
+
+.thirdPlan_container_div {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+
+  .card_images {
+    max-width: 250px;
+  }
+}
+
+.worksOfEconom {
+    .card_main_text {
+        padding: 8px 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    }
+}
