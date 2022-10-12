@@ -1,0 +1,73 @@
+.home_wrapper {
+  padding: 50px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home_wrapper .main_heading {
+  line-height: 60px;
+  margin: 0 auto;
+  font-size: 35px;
+  font-weight: 700;
+  color: #3d3d3d;
+  margin-bottom: 50px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1e3c72), color-stop(1%, #1e3c72), to(#2a5298));
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home_wrapper .theme_name {
+  font-size: 25px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1e3c72), color-stop(1%, #1e3c72), to(#2a5298));
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+.home_wrapper .course_work {
+  font-size: 70px;
+  margin: 30px 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1e3c72), color-stop(1%, #1e3c72), to(#2a5298));
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home_wrapper .names_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: left;
+}
+
+.home_wrapper .names_div > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 450px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 4px 4px 27px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 27px 0px rgba(34, 60, 80, 0.2);
+}
+
+.home_wrapper .names_div > div:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 3px 3px 15px -4px #777777;
+          box-shadow: 3px 3px 15px -4px #777777;
+}
+
+.home_wrapper .teacher_name {
+  font-size: 18px;
+}
+
+.home_wrapper .teacher_name span {
+  font-weight: 600;
+  color: bold;
+}
+/*# sourceMappingURL=Home.module.css.map */

@@ -1,0 +1,37 @@
+.plan_wrapper .plan_container {
+  border-radius: 15px;
+  max-width: 900px;
+  border: 1px solid #dddddd;
+  margin: 20px auto;
+  -webkit-box-shadow: 3px 3px 12px -4px rgba(0, 0, 0, 0.68);
+          box-shadow: 3px 3px 12px -4px rgba(0, 0, 0, 0.68);
+}
+
+.plan_wrapper .plans_block {
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 600;
+  max-width: 800px;
+  margin: 50px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.plan_wrapper .plans_block a {
+  padding: 20px 10px;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.plan_wrapper .plans_block:nth-child(1) {
+  text-align: center;
+  font-size: 23px;
+}
+
+.plan_wrapper .plans_block:hover {
+  -webkit-box-shadow: 3px 3px 12px -4px rgba(0, 0, 0, 0.68);
+          box-shadow: 3px 3px 12px -4px rgba(0, 0, 0, 0.68);
+}
+/*# sourceMappingURL=about.module.css.map */

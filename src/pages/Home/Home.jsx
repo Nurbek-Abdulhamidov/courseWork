@@ -4,28 +4,27 @@ export const Home = () => {
   return (
     <div className={classes.home_wrapper}>
       <h2 className={classes.main_heading}>
-        Ўзбекистон Республикаси Олий ва Ўрта Махсус Таълим Вазирлиги Тошкент
-        Давлат Иқтисодиёт Университети Сиртқи таълим бўлими{" "}
-        <span className={classes.grade_name}>“Менежмент ва маркетинг”</span>{" "}
-        кафедраси{" "}
-        <span className={classes.subject_name}>
-          “Иктисодий тахлил ва аудит”
+        O'zbekiston Respublikasi Oliy va O'rta Maxsus Ta'lim Vazirligi Toshkent
+        Davlat Iqtisodiyot Unversiteti Sirtqi ta'lim bo'limi
+        <span className={classes.grade_name}>
+          “Menejment va Marketing”
         </span>{" "}
-        фанидан
+        kafedrasi{" "}
+        <span className={classes.subject_name}>“Marketingni boshqarish”</span>{" "}
+        fanidan
       </h2>
       <h3 className={classes.theme_name}>
-        "Иқтисодий таҳлилнинг предмети, вазифалари ва мазмуни" мавзусидаги
+        "Marketingni boshqarish jarayonida tovar siyosati" mavzusidagi
       </h3>
-      <h1 className={classes.course_work}>КУРС ИШИ </h1>
+      <h1 className={classes.course_work}>KURS ISHI </h1>
       <div className={classes.names_div}>
         <div className={classes.teacher_name}>
-          <span>Илмий раҳбар : </span>доц. Мусахонзода Икромжон.
+          <span>Ilmiy raxbar : </span>Rahmonov Norim .
         </div>
         <div className={classes.teacher_name}>
-          <span>
-            Бажарди: Сиртқи таълим бўлими “Маркетинг (тармоклар ва хизматлар)”
-            таълим йўналиши ММР-51 гуруҳ талабаси Абдулхамидов Нурбек.
-          </span>
+          <span>Bajardi : </span>Sirtqi ta'lim bo'limi "Marketing (tarmoqlar va
+          xizmatlar)" ta'lim yo'nalishi MMR-51 gurux talabasi Abdulhamidov
+          Nurbek.
         </div>
       </div>
     </div>

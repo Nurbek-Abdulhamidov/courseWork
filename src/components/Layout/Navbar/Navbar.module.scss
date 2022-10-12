@@ -8,38 +8,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 78px;
+  height: 68px;
   margin: 0 auto 20px auto;
   padding: 0 50px;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-color: #0a3457;
 
-  .logo {
-    font-size: 22px;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .logo a {
+    font-size: 18px;
+    color: #fff;
     font-weight: 700;
     text-align: center;
+    cursor: pointer;
   }
 
   .navbar_items {
     display: flex;
+    gap: 20px;
+  }
 
-    .navbar_item {
-      margin: 0 25px;
-      list-style: none;
-      background-color: #f5f7fa;
-      text-align: center;
-      border-radius: 5px;
-      padding: 5px 10px;
-      border: 1px solid #c3cfe2;
-      box-shadow: 1px 2px 2px;
-      font-weight: 600;
-
-      a {
-        width: 100px;
-        text-decoration: none;
-      }
-    }
+  button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
   }
 }

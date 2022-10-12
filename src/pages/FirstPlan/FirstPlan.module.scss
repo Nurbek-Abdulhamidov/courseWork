@@ -1,5 +1,5 @@
 .firstplan_wrapper {
-  margin: 20px 0;
+  margin: 50px 0;
   height: 100%;
 
   .plan_container {
@@ -8,7 +8,7 @@
 
   .plan_container > div {
     flex: 1;
-    margin: 50px 0;
+    margin: 20px 0;
   }
 
   .left_plan_div {
@@ -21,9 +21,12 @@
     padding: 20px 0;
   }
 
-  .firstPlanImg {
-    border-radius: 15px;
-    max-width: 700px;
+  .enterImg {
+    float: left;
+    max-width: 1440px;
+    width: 50%;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
   }
 
   .list_items {
@@ -42,22 +45,10 @@
     color: #fff;
     margin: 15px 0;
     min-width: 200px;
-    background-image: linear-gradient(
-      -225deg,
-      #3d4e81 0%,
-      #5753c9 48%,
-      #6e7ff3 100%
-    );
   }
 
   .list_item:hover {
     box-shadow: 3px 3px 15px -4px #777777;
-    background-image: linear-gradient(
-      -225deg,
-      #ac32e4 0%,
-      #7918f2 48%,
-      #4801ff 100%
-    );
   }
 
   .item_cards {
@@ -72,9 +63,8 @@
     font-size: 25px;
     border-radius: 15px;
     padding: 25px;
-    max-width: 700px;
+    max-width: 1440px;
     margin: 0 auto;
-    background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
     position: absolute;
   }
 
@@ -97,17 +87,6 @@
       border-radius: 10px;
       padding: 10px;
       background-color: #e4e4e1;
-      background-image: radial-gradient(
-          at top center,
-          rgba(255, 255, 255, 0.03) 0%,
-          rgba(0, 0, 0, 0.03) 100%
-        ),
-        linear-gradient(
-          to top,
-          rgba(255, 255, 255, 0.1) 0%,
-          rgba(143, 152, 157, 0.6) 100%
-        );
-      background-blend-mode: normal, multiply;
     }
   }
 }

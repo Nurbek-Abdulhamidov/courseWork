@@ -1,36 +1,33 @@
 .plan_wrapper {
-  height: 100vh;
-
   .plan_container {
     border-radius: 15px;
-    max-width: 900px;
-    border: 1px solid rgb(221, 221, 221);
+    padding: 20px 0;
     margin: 20px auto;
-    box-shadow: 3px 3px 12px -4px rgba(0, 0, 0, 0.68);
+    border: 0.2px solid #0a3457;
+    box-shadow: 3px 3px 12px -4px #0a3457;
   }
 
   .plans_block {
+    border: 1px solid #0a3457;
     cursor: pointer;
     border-radius: 10px;
     font-weight: 600;
-    max-width: 800px;
+    width: 80%;
     margin: 50px auto;
-    color: #fff;
-    background-image: linear-gradient(
-      -225deg,
-      #3d4e81 0%,
-      #5753c9 48%,
-      #6e7ff3 100%
-    );
     transition: all 0.3s ease;
+    font-size: 24px;
+    padding: 20px 10px;
   }
 
   .plans_block a {
-    padding: 20px 10px;
+    color: black;
     text-decoration: none;
-    color: #fff;
     display: block;
     height: 100%;
+  }
+
+  .plans_block:hover a {
+    color: #fff;
   }
 
   .plans_block:nth-child(1) {
@@ -39,12 +36,8 @@
   }
 
   .plans_block:hover {
-    background-image: linear-gradient(
-      -225deg,
-      #65379b 0%,
-      #886aea 53%,
-      #6457c6 100%
-    );
-    box-shadow: 3px 3px 12px -4px rgba(0, 0, 0, 0.68);
+    color: #fff;
+    transition: all 0.3s ease;
+    background-color: #0a3457;
   }
 }

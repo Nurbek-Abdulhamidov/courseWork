@@ -1,0 +1,36 @@
+.container {
+  z-index: 99;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 68px;
+  margin: 0 auto 20px auto;
+  padding: 0 50px;
+  background-color: #0a3457;
+}
+
+.container .logo {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container .navbar_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
