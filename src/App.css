@@ -18,6 +18,16 @@ body {
   color: #0d263b;
 }
 
+.title2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
 .subTitle {
   font-style: normal;
   font-weight: 400;

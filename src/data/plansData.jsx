@@ -1,19 +1,13 @@
 export const plansLinks = [
   {
     key: 1,
-    title: "Marketingni boshqarish fanining predmeti va nazariy asoslari",
-    path: "/firstplan",
+    title: "Marketing tushunchasi va mohiyati.",
+    path: "/secondplan",
   },
   {
     key: 2,
-    title:
-      "Tovarni istemol xususiyatlarini aholi ehtiyojlariga moslashtirish bo'yicha talablar",
-    path: "/secondplan",
+    title: "Marketingni boshqarish fanining predmeti va nazariy asoslari",
+    path: "/firstplan",
   },
-  { key: 3, title: "Iqtisodiy tahlilning vazifalari", path: "/thirdplan" },
-  {
-    key: 4,
-    title: "Iqtisodiy tahlilning asosiy tamoyillari",
-    path: "/fourthplan",
-  },
+  { key: 3, title: "Tovar siyosatini boshqarish...", path: "/thirdplan" },
 ];
