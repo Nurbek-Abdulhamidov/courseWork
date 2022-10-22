@@ -1,13 +1,18 @@
 export const plansLinks = [
   {
     key: 1,
-    title: "Marketing tushunchasi va mohiyati.",
+    title: "Omborlarning turlari...",
     path: "/secondplan",
   },
   {
     key: 2,
-    title: "Marketingni boshqarish fanining predmeti va nazariy asoslari",
+    title: "Omborlarda amalga oshiriladigan operatsiyalar",
     path: "/firstplan",
   },
-  { key: 3, title: "Tovar siyosatini boshqarish...", path: "/thirdplan" },
+  {
+    key: 3,
+    title:
+      "Transport va ortish-tushirish mashinalari ishini birgalikda tashkil etish",
+    path: "/thirdplan",
+  },
 ];

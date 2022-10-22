@@ -3,6 +3,7 @@ import { MdOutlineDoubleArrow } from "react-icons/md";
 import firstPlanImg from "../../assets/images/business.png";
 import secondPlanImg from "../../assets/images/workerImg.jpg";
 
+
 export const FirstPlan = () => {
   return (
     <div className={classes.firstplan_wrapper}>

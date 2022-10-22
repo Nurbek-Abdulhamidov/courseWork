@@ -1,122 +1,167 @@
 import predmetImg from "../../assets/images/img2.webp";
 import secondPredmetBottomImg from "../../assets/images/business.png";
 import classes from "./SecondPlane.module.scss";
-import card_img from "../../assets/images/workerImg.jpg";
+import card_img from "../../assets/images/vazifa.png";
+import secondPlanImg2 from "../../assets/images/omborvazifasi.png";
 import card_img2 from "../../assets/images/work2.jfif";
 import card_img3 from "../../assets/images/work3.jfif";
 import card_img4 from "../../assets/images/work4.jfif";
-import ScreenImg from "../../assets/images/screenImg.png";
+import ScreenImg from "../../assets/images/ombor.png";
 import hisotryImg from "../../assets/images/History.png";
 import SystemImg from "../../assets/images/system.png";
 
 const SecondPlan = () => {
   return (
     <div className={classes.secondPage_container}>
-      <h1 className="title">1.1. Маркетинг тушунчаси ва моҳияти</h1>
+      <h1 className="title">Omborlarning turlari...</h1>
       <div className={classes.secondPlan_div}>
         <h5 className={classes.secondPlan_paragraph}>
-          Тадбиркорлик фаолиятида қарор қабул қилиш ва уни ишлаб чиқишда
-          тадбиркорликнинг самарали воситаси ҳамда асоси бўлиб маркетинг
-          ҳисобланади ҳамда тадбиркорлик фаолиятини бошқариш тизимида, уни
-          ташкил этишда, режалаштириш ва назорат қилишда муҳим аҳамият касб
-          этади. «Ай-си-ай» концерни бошқаруви раиси Джон Ҳарви Джонс
-          тадбиркорликда маркетингни ўрнини тависфлаб шундай дейди, яъни
-          «Маркетинг тадбиркорликнинг таянч омилидир. Бу нафақат ёқилғи, балки
+          Omborlar transport logistik tizimlarning asosiy elementlaridan biri
+          hisoblanadi. Yetkazib berish zanjirlarida moddiy oqimlarni boshqarish
+          samaradorligi ombor xo‘jaligining qanday ishlashiga bogMiqdir. Ombor
+          xo‘jaligi mahsulot sifatining saqlanishi. ishlab chiqarish va
+          transportning bir maromda ishlashini, korxona maydonidan samarali
+          foydalanishni, transport vositalarining ortiqcha turib qolishini
+          kamaytirish imkonini beradi
           <img src={predmetImg} className={classes.textImg} alt="" />
-          кема командасидир.» Маркетинг мазмуни ва терминологияси янгиланиб
-          боради, лекин улар бошдан айирбошлаш жараёни, товар-пул муносабатлари
-          пайдо бўлиши, сотиш шаклларини ривожланиши ҳамда истеъмолчиларни товар
-          ва хизматлар билан ўзаро ҳаракати билан боғланади. Маркетинг тушунчаси
-          бозор соҳасини ҳар қандай фаолияти билан боғлиқдир, шу боис маркетинг
-          сўзини таржимаси ва келиб чиқиши келтирилади (инг. Маркет – бозор, инг
-          – фаол, фаолият, ҳаракат маъносини англатади). Маркетинг бу нафақат
-          фалсафа, фикрлаш тарзи ва иқтисодий тафаккур йўналиши, аммо айрим
-          фирма, компания, тармоқ ва бутун иқтисодиёт бўйича амалиёт фаолияти
-          ҳамдир. АҚШ ва бошқа хорижий давлатлар иқтисодий адабиётларида
-          маркетинг таърифини кўп турлари мавжуддир. Энг кенг тарқалган
-          маркетинг таърифи, у Америка маркетинг ассоциацияси томонидан берилган
-          бўлиб, унинг мазмуни қуйидагичадир, яъни «Маркетинг» шундай жараёндан
-          иборатки, унинг ёрдамида уйланган ғоя режалаштирилади ва амалга
-          оширилади, нархлар ташкил этилади, ғоялар, товарлар ва хизмат
-          кўрсатишлар ҳаракати ва сотишни, айрим шахслар ва ташкилотларни
-          мақсадлари айирбошлаш ёрдамида қондирилади».
+          Ishlab chiqarish jarayoni moddiy oqimlarning bir korxonadan boshqasiga
+          transportirovka qilinishi, tayyor mahsulotlarni iste’molchiga
+          yetkazilishi bilan bog‘liq. Bu ishlar logistik zanjirning ba’zi
+          joylarida moddiy zaxiralarni yigsilishiga olib keladi. Demak, bu
+          zaxiralarni saqlash uchun maxsus joy, ya’ni omborlar kerak bo‘ladi.
+          Ombor deganda, har xil moddiy resurslarni qabul qilish va saqlashga
+          moMjallangan, ularni iste’mol qilishga tayyorlash va iste’mol qilish
+          uchun jo ‘natishga moslashtirilgan maxsus binolar, ishootlar va har
+          xil qurilmalar tushuniladi. Oborlar yuk oqimining har xil
+          uchastkalarida boshlanish joyida, o‘rtasida yoki oxirida tashkil
+          etilishi mumkin. Omborlarga ehtiyoj moddiy oqimlar oqishining hamma
+          darvlarida mavjud bolmadi.
         </h5>
       </div>
       <div className={classes.images_div}>
         <p className="subTitle">
-          Ҳозирги даврда жаҳон адабиётида маркетингга берилган икки мингдан
-          ортиқ таъриф бор. Мутахассислар ўртасида маркетингнинг такрор ишлаб
-          чиқариш жараёнида иштироки масаласида ягона фикр йўқ. Ҳозир кўпгина
-          чет эллик маркетологлар замонавий маркетинг тушунчаси ишбилармонликка
-          кирадиган фаолиятни ўз ичига олмоғи керак деб ҳисоблайдилар. Бошқалари
-          эса бундай изоҳларни танқид қилиб, айрибошлашнинг ҳамма турлари ҳам
-          маркетинг тусига эга эмаслигини ва маркетинг принципларини ҳамма
-          вазиятларга ҳам тадбиқ қилиб бўлмаслигини таъкидлайдилар. Маркетингга
-          таъриф беришда бундай хилмахилликнинг сабаби бор. Биринчидан,
-          маркетинг концепцияси мазмуни капиталистик ишлаб чиқариш усули
-          ривожланиши билан ўзгариб келди ва унинг моҳиятини акс эттирди,
-          иккинчидан, бошқариш тизимида маркетингдан фойдаланиш мақсадлари,
-          хусусиятлари, миқёсига қараб, ундаги ташкилий қисмларнинг аҳамияти ва
-          бошқарув тизимидаги аҳамияти ўзгариб боради. Бундан ташқари,
-          мутахассислар маркетингни бизнес хизмати ва фалсафаси тарзида
-          баҳолайдилар. Хизмат сифатида маркетинг ишлаб чиқариш, савдо, реклама,
-          техника хизмати кўрсатиш ва бошқа соҳадаги тадбирлар мажмуидан иборат.
-          Фалсафа сифатида эса маркетинг - бу жамият ишлаб чиқариш
-          муносабатларига дахлдор ижтимоий-иқтисодий концепциядир.
+          Moddiy boylik manbalarini ishlab chiqaruvchidan iste’molchiga
+          transportirovka qilish ikki usulda bajarilishi mumkin: - tranzit
+          usulida; - omborlardan foydalanish usulida. Ishlab chiqarish jarayoni
+          uzluksizligini tranzit usuli bilan yetkazish eng tejamli usul
+          hisoblanadi, chunki u qo‘shimcha xarajatlarning kamayishiga olib
+          keladi. Lekin bu usuldan foydalanishning o‘z shartlari bor.
+          Iste’molchi korxona bitta ta’minlovchi korxonaning aniq vaqt davomida
+          katta miqdorda yuboradigan moddiy boylik manbalaridan foydalansa.
+          tranzit usulidan foydalanish mumkin. Boshqacha qilib aytganda,
+          ta’minlashning tranzit usuli bilan tashkil qilinish imkoniyati moddiy
+          boylik manbalarini iste’mol qilish miqdoriga va belgilangan tranzit
+          me’yorlariga bog‘liq.
           <img src={ScreenImg} alt="" />
         </p>
         <img src={secondPredmetBottomImg} alt="" />
-        <h2 className="title">
-          1.2. Маркетингни вужудга келиши ва уни ривожланишини асосий босқичлари
-        </h2>
+
         <p className="subTitle">
-          Маркетингни асосий элементларини ташкил топиши – бозорни тадқиқ қилиш
-          ва таҳлил этиш, нархни тузилиши тамойили; сервис сиёсати – (1809-1884)
-          Сайрус Маккормек номи билан боғланади. 1902 йилдан бошлаб АҚШнинг
-          (Мичиган, Калифорния, Иллинойс) университетларида маркетинг муаммолари
-          бўйича («Товарлар маркетинги», «Маркетинг услублари» фанлари ва
-          бошқалар) фанлар киритилиб, маърузалар ўқитила бошлади. 1926 йилда
-          АҚШда маркетинг ва реклама миллий уюшмаси ташкил топди, кейинчалик
-          унинг негизида Америка Маркетинг жамияти барпо этилди, бу жамият 1973
-          йилда Америка Маркетинг уюшмаси номини олди. Бир оз кейинроқ бундай
-          уюшма ва ташкилотлар Ғарбий Европа мамлакатлари ва Японияда ҳам пайдо
-          бўлди. Халқаро маркетинг ташкилотлари - Европа маркетинг ва ижтимоий
-          фикр тадқиқотлари жамияти, Халқаро Маркетинг Федерацияси, Европа
-          Академияси ва шунга ўхшашлар юзага келди. Булар ҳақида 1.1-жадвалда
-          тўлиқ танишиб чиқиш мумкин.
-          <img src={hisotryImg} alt="" />
-          Ўтган асирнинг 60-йиллар ўртасида энг йирик Америка корпорацияларининг
-          барчаси ўз хўжалик фаолиятида маркетингнинг асосий талабларини қўллай
-          бошлади. Ғарбий Европа ва Японияда маркетинг ғоялари АҚШга қараганда
-          сустроқ жорий қилинди. Аммо 60-йилларнинг охирига келиб улар маркетинг
-          амалиётини тезкорлик билан ўзлаштиришга киришдилар ва бунда муҳим
-          ютуқларга эришдилар. Маркетинг анъанавий савдо усулларидан фарқли
-          улароқ аниқ мақсадларни кўзлайди, хўжалик вазифаларини эса яққол
-          ифодалайди: корхона шундай сифатли маҳсулот тайёрлаши лозимки, уни
-          сотиш қулай бўлсин. Дарҳақиқат, маҳсулот ишлаб чиқарилгани билан у
-          албатта фойда келтиради деган маънони ҳали асло билдирмайди. Илгари
-          хўжалик раҳбарларининг вазифаси асосан жами ресурсларни ишлаб чиқариш
-          талаблари билан мувофиқлаштиришдан иборат эди, яъни корхона ўзи
-          хоҳлаган маҳсулотни ишлаб чиқарар ва ҳамма эътиборини уни сотишга
-          қаратар эди. Маркетингнинг мақсади эса бозорнинг мавжуд ва келгусида
-          эҳтимол тутган имкониятларини аниқлаш ҳамда сифат жиҳатидан тўғри
-          баҳолашдан, сўнгра унга таяниб, бутун кучини ўз маҳсулотига қизиқиш ва
-          эҳтиёжни кучайтиришга, харидорга маҳсулотни, шунингдек кўрсатиладиган
-          тегишли химат турини танлаш имконини яратган ҳолда, маҳсулотни сотишга
-          қаратишдан иборат.
+          Tranzit me’yori deganda, bir buyurtma asosida ta’minlovchi korxonaga
+          yuboriladigan moddiy boylik manbalarining eng kam qo‘yilgan miqdori
+          tushuniladi. Ishlab chiqarish jaravonining uzluksizligini omborlardan
+          foydalaniladigan usul bilan ta’minlashda mahsulotlar harakati
+          boshqacha tashkil etiladi. Bu usul orqali materiallar korxona va
+          tashkilot omborlariga yetib borishdan avval, ta’minlash-o‘tkazish
+          tashkilotlarining ombor va bazalaridan iste’molchilarga yetkaziladi.
+          Omborlar orqali ta’minlash usuli turli xil moddiy boylik manbalarini
+          kam miqdorda iste’mol qiladigan korxonalarda qo‘llanadi. Ombor orqali
+          ta’minlashning ijobiy tomoni yana shundaki, bunda ta’min!ash-o‘tkazish
+          bazadagi zaxiralardan samarali foydalanish, shuningdek, qisqa vaqt
+          davomida birdaniga keng doiradagi iste’molchilar ehtiyojini qondirishi
+          mumkin, iste’molchilarni har tomonlama ta’minlash imkoniyati
+          yaratiladi. Ishlab chiqarish korxonasining omborlari, yordam chi
+          sexlari va transportlari korxona ishlab chiqarish tuzilm asining eng
+          muhim haiqalaridan hisoblanadi.
         </p>
-        <h1 className="title">Маркетинг тизимидаги беш асосий нарса</h1>
-        <h3 className={classes.main_bordered_text}>
-          <img src={SystemImg} alt="" />
-        </h3>
+        <h1 className="title">
+          Korxona omborlarining asosiy vazifalari quyidagilardan iborat:
+        </h1>
+        <img className={classes.card_images} src={card_img} alt="" />
 
         <div className={classes.thirdPlan_container_div}>
-          <img className={classes.card_images} src={card_img} alt="" />
-          <img className={classes.card_images} src={card_img2} alt="" />
-          <img className={classes.card_images} src={card_img3} alt="" />
-          <img className={classes.card_images} src={card_img4} alt="" />
+          <p className="subTitle">
+            Omborlar ko‘pgina belgilariga qarab turlarga ajratiladi. Omborlar
+            yuk oqimining har xil uchastkalarida boshlanish joyida, o ‘rtasida
+            yoki oxirida tashkil etilishi mumkin. Omborlarga ehtiyoj moddiy
+            oqimlar oqishining hamma darvlarida mavjud bo‘ladi.
+          </p>
         </div>
       </div>
+      <h4 className="subTitle" style={{ textAlign: "left" }}>
+        Moddiy boylik manbalarini ishlab chiqaruvchidan iste’molchiga
+        transportirovka qilish ikki usulda bajarilishi mumkin:
+      </h4>
+      <ul>
+        <li className="subTitle" style={{ textAlign: "left" }}>
+          tranzit usulida;
+        </li>
+        <li className="subTitle" style={{ textAlign: "left" }}>
+          omborlardan foydalanish usulida.
+        </li>
+      </ul>
+      <p className="subTitle">
+        Ishlab chiqarish jarayoni uzluksizligini tranzit usuli bilan yetkazish
+        eng tejamli usul hisoblanadi, chunki u qo‘shimcha xarajatlaming
+        kamayishiga olib keladi. Lekin bu usuldan foydalanishning o ‘z shartlari
+        bor. Iste’molchi korxona bitta ta’minlovchi korxonaning aniq vaqt
+        davomida katta miqdorda yuboradigan moddiy boylik manbalaridan
+        foydalansa, tranzit usulidan foydalanish mumkin. Boshqacha qilib
+        aytganda, ta’minlashning tranzit usuli bilan tashkil qilinish imkoniyati
+        moddiy boylik manbalarini iste’mol qilish miqdoriga va belgilangan
+        tranzit me’yorlariga bog‘liq. Tranzit m e’yori deganda, bir buyurtma
+        asosida ta’minlovchi korxonaga yuboriladigan moddiy boylik manbalarining
+        eng kam qo‘yilgan miqdori tushuniladi. Ishlab chiqarish jarayonining
+        uzluksizligini omborlardan foydalaniladigan usul bilan ta’minlashda
+        mahsulotlar harakati boshqacha tashkil etiladi. Bu usul orqali
+        materiallar korxona va tashkilot omborlariga yetib borishdan avval,
+        ta’minlash-o‘tkazish tashkilotlarining ombor va bazalaridan
+        iste’molchilarga yetkaziladi. Omborlar orqali ta’minlash usuli turli xil
+        moddiy boylik manbalarini kam miqdorda iste’mol qiladigan korxonalarda
+        qo‘llanadi. Ombor orqali ta’minlashning ijobiy tomoni yana shundaki,
+        bunda ta’minlash-o‘tkazish bazadagi zaxiralardan samarali foydalanish,
+        shuningdek, qisqa vaqt davomida birdaniga keng doiradagi iste’molchilar
+        ehtiyojini qondirishi mumkin, iste’molchilami har tomoniama ta’minlash
+        imkoniyati yaratiladi. Ishlab chiqarish korxonasining omborlari,
+        yordamchi sexlari va transportlari korxona ishlab chiqarish
+        tuzilmasining eng muhim halqalaridan hisoblanadi.
+      </p>
+      <h2 className="title" style={{ textAlign: "left" }}>
+        Korxona omborlarining asosiy vazifalari quyidagilardan iborat
+      </h2>
+      <ol style={{ textAlign: "left" }}>
+        <li className="subTitle">
+          Kerakli yoqilg‘i, xomashyo, material, mahsulot va boshqa manbalar
+          zaxiralarini to‘plash va iste’molchilarni uzluksiz ta’minlash.
+        </li>
+        <li className="subTitle">Moddiy boylik manbalarini saqlash.</li>
+        <li className="subTitle">
+          Ortish-tushirish ishlari, omboming ichki ishlarini eng oz mehnat va
+          moliya xarajatlari bilan oqilona tashkil etish
+        </li>
+        <li className="subTitle">
+          Ombor maydonlaridan oqilona foydalanish va omboming asbob-uskunalarini
+          samarali ishlatish
+        </li>
+        <li className="subTitle">
+          Moddiy boylik manbalarini ishlab chiqarishda iste'mol qilishga
+          tayyorlash.
+        </li>
+        <li className="subTitle">
+          {" "}
+          Markazlashtirilgan usulda material va mahsulotlarni kerakli joylarga
+          yetkazib berish.
+        </li>
+        <li className="subTitle">
+          Materiallardan tejamli foydalanishni nazorat qilish.
+        </li>
+        <li className="subTitle">
+          Ishlab chiqarish jarayonida ishlatilmasdan qolgan, ortiqcha moddiy
+          boyliklar manbalari zaxiralarini o bz vaqtida aniqlash va ulardan
+          foydalanishni tashkil etish.
+        </li>
+      </ol>
+      <img src={secondPlanImg2} alt="" />
     </div>
   );
 };

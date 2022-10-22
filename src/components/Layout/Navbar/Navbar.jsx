@@ -9,10 +9,11 @@ export const Navbar = () => {
       <div className={classes.logo}>
         <NavLink to="/">
           <marquee behavior="" direction="">
-            Marketingni boshqarish
+            Logistika
           </marquee>
         </NavLink>
       </div>
+
       <div className={classes.navbar_items}>
         {pageLinks?.map(({ key, path, title }) => (
           <NavLink to={path} key={key}>

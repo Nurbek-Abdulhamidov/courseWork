@@ -10,60 +10,53 @@ const Entering = () => {
         <marquee>КИРИШ</marquee>
       </div>
       <div className="subTitle">
-        Бугунги кунда Ўзбекистонда маркетинг фаолияти жадал равишда
-        ривожланмоқда. Мамлакатимизда инновацион ривожланиш ва бозор рақобати
-        шароитида турли мулкчилик шаклидаги корхоналар ва ташкилотлар
-        фаолиятининг муҳим қисми бўлган маркетингни бошқаришга бўлган қизиқиш
-        ортиб бормоқда. Замонавий маркетинг - истеъмолчиларни хоҳиш ва
-        муҳтожликларини аниқлашдан бошланиб, ушбу корхона қайси мақсадли
-        бозорларга самарали хизмат кўрсатиб ва ажойиб қимматни таклиф этиб, улар
-        асосан корхона мақсадли истеъмолчиларини эгаллаб ҳамда ушлаб қолиб,
-        шунингдек, сонини кўпайтиришга эришиш бўйича қарор қабул қилишдир. Агар
-        корхона мазкур вазифаларни муваффақиятли ечса, у маълум миқдордаги бозор
-        улушига, фойдага ва мижоз капиталини эгаллашга эришади.
+        0 ‘zbekiston Respublikasi mustaqillikka erishganidan so‘ng
+        ijtimoiy-iqtisodiy va siyosiy o‘zgarishlar hayotga izchil joriy etila
+        boshladi. Respublikaning bozor iqtisodiyotiga o‘tib borishi, xususiy
+        mulkchilikni, avtomobil sanoatini vujudga kelishi, chet ellar bilan teng
+        huquqli iqtisodiy aloqalarning yo‘lga qo‘yilishi transport sohasida
+        yangi va dolzarb masalalami yuzaga keltirdi. Bugungi kunda xo‘jalik
+        yurituvchi subyektlarning har xilligi va teng huquqliligi, ular
+        o‘rtasidagi raqobat, tadbirkorlik tashabukorligi, o‘zini o‘zi boshqarish
+        va moliyalashtirish kabi bozor tamoyillari, o‘z navbatida, tashishning
+        yangi texnologiyalarini ishlab chiqishni va hayotga joriy etish
+        masalasini vujudga Jceltirdi. Bunday texnologiyalar tashish jarayonini
+        yaxlit holda, ya’ni «ishlab chiqaruvchi - tashib beruvchi - iste’molchi»
+        .zanjirini bir butun holda ko‘rish, mahsulotlar (moddiy oqimlar,
+        yo‘lovchilar)
         <img className={classes.enterImg} src={EnerImg} alt="" />
-        Мамлакатимиз иқтисодиётида амалга оширилаётган таркибий ўзгаришлар
-        алоҳида эътиборга лойиқдир. Ҳаммамиз яхши биламизки, бизга фақат хом
-        ашён и экспорт қилиш эмас, балки ташқи бозорга тайёр рақобатбардош
-        маҳсулотлар экспорт қилиш масаласига эътибор қаратилган. Шу мақсадда
-        Давлатимиз раҳбарининг 2017 йил 7 февралдаги Фармони билан тасдиқланган
-        2017-2021 йилларда Ўзбекистон Республикасини ривожлантиришнинг бешта
-        устувор йўналиши бўйича Ҳаракатлар стратегиясида “принципиал жиҳатдан
-        янги маҳсулот ва технология турларини ўзлаштириш, шу асосда ички ва
-        ташқи бозорларда миллий товарларнинг рақобатбардошлигини таъминлаш” 1
-        бўйича муҳим вазифалар белгилаб берилган. Инновацион ривожланиш
-        шароитида ана шундай вазифалардан бири корхоналарда маркетинг
-        бошқарувидан самарали фойдаланиш бўлиб ҳисобланади. Маркетинг
-        корхоналарга истеъмолчилар эҳтиёжларини олдиндан кўра билиш ва
-        истеъмолчилар эҳтиёжларини қондириш имконини беради. Ўзбекистон
-        Республикаси Президентининг 2018 йил 30 октябрдаги ПФ-5564- сонли “Товар
-        бозорларида савдони янада эркинлаштириш ва рақобатни ривожоантириш
-        чора-тадбирлари тўғрисида”ги Фармонида кўрсатилишича,
+        funksiyalar va operatsiyalar, logistikaning metodologik apparati,
+        logistik axborot tizimlari, logistik tizimlarni boshqarish va logistik
+        markazlar haqida tushunchalar berilgan. Muallifiar o‘quv qo‘llanmani
+        tayyorlashda va chop etishga tavsiya berishda o‘zlarining tanqidiy
+        mulohazalari va ko‘rsatmalari bilan ishtirok etgan TAYI o‘qituvchilari
+        i.f.d., prof. Sh.A.Butayev, t.f.n., dot. A.A.Nazarov, i.f.n., dot.
+        X.B.Baxodirov, i.f.n., dots. N.S. Sarvirova, katta o‘qituvchi
+        N.Arifjonovalar va internet ma’lumotlarini olishda katta yordam bergan
+        Sh.R.Odilovlarga o‘z minnatdorchiligini bildiradilar hamda mazkur
+        qo‘lIanmani takomillashtirish borasida bildiriladigan barcha takliflar
+        uchun oldindan tashakkur bildiradilar
         <img className={classes.enterImg2} src={img2} alt="" />
-        “улгуржи савдонинг ривожланиши, кейинчалик қайта ишлаш учун ярим тайёр
-        маҳсулотларни ва саноат маҳсулотларини, “бизнес учун - бизнес” ( В2В)
-        тамойили бўйича бошқа товарларнии етказиб бериш тизими даражасининг
-        пастлиги хўжалик юритувчи субъектлар трансакция харажатларининг ошишига
-        ва улар томонидан ишлаб чиқарилаётган маҳсулотларнинг
-        рақобатбардошлигини пасайишига олиб келмоқда” 2 . Юқоридагилардан келиб
-        чиқиб шуни айтиш мумкинки, маҳсулот ишлаб чиқарадиган корхоналарда,
-        чакана ва улгуржи савдо корхоналарида, хизмат кўрсатиш корхоналарида
-        маркетингни бошқаришдан самарали фойдаланиш бу фақат корхонада ишни
-        ташкил этиш ва уни бошқариш эмас, балки товарлар ёки хизматлар
-        рақобатбардошлигини оширишга кенг имкониятлар яратади.
+        Logistika tushunchasi juda qadim iy tarixga ega bo‘lib, birinchi m arta
+        harbiy fan sifatida vujudga kelgan. IX asrda Vizantiyada bu tushunchaga
+        qo‘shinni barcha kerakli narsalar bilan bilan o‘z vaqtida aniq
+        ta’minlash jangning muvaffaqiyatini belgilovchi omil deb qaralgan.
+        Vizantiya imperiyasida «logist» mansabi joriy etilgan bo‘lib ular
+        oziq-ovqat taqsimoti bilan shug‘ullanganlar. Logistika atamasi grekcha
+        «Хоуютхкц» so‘zidan kelib chiqqan bo‘lib Vizantiya imperatori Lv VI ning
+        davrida «hisob san'ati» degan ma’noni anglatgan (865-912yy). Ispan
+        huquqshunosi va iqtisodchisi Polo de Ondegardoning 1572-yilda xabar
+        berishicha ink Imperiyasi chinovniklari tomonidan ink saroyi uchun zarur
+        bo‘lgan oziq-ovqat miqdorining hisobi olib borilgan. Bunda ularni
+        qayerdan tashib keltirilishi, yetkazib kelish vaqti va tashish
+        masofalarining hisoblari olib borilgan. XIX asrda fransuz olimi A.G.
+        Jomini logistikani armiya va front orqasini boshqarish. tashishni
+        rejalashtirish va tashkil etish bo‘yicha fan deb talqin etadi.
+        1850-yilda Sankt-Peterburgda chop etilgan «Harbiy ensiklopedik
+        leksion»da logistika deb uzoqda va dushman yaqinida qo‘shinni
+        ko‘chirishni boshqarish, qo‘shinni orqadan ta’minlashni tashkil etish
+        san'ati deb tushuncha berilgan
         <br />
-        <br />
-        Самарали маркетинг бошқарувига эришиш компаниянинг маркетинг
-        имкониятларини қанчалик тўғри баҳоланишига боғлиқ. Аслида маркетинг
-        имкониятлари деганда истеъмолчилар қизиқиши ва эҳтиёжларининг шундай
-        соҳаси тушуниладики, ушбу соҳани қамраб олиниши компания учун фойда олиш
-        эҳтимоллигини юқори даражага кўтаради. Келгусида корхона ва
-        ташкилотларда маркетинг бошқарувининг айрим функциялари, хусусан
-        режалаштириш, ташкил этиш, назорат қилиш кабиларнинг аҳамиятлилиги
-        ортади. Чунончи маркетинг режаларини асослашда мақсаднинг тўғри
-        қўйилиши, вазифаларнинг аниқ белгиланиши, стратегияларни асосли
-        танланиши, тадбирлар туркумининг пухта ишлаб чиқилиши керак бўлади. Бу
-        эса маркетинг хизмати мавқеининг ошишига сабаб бўлади.
       </div>
     </div>
   );
