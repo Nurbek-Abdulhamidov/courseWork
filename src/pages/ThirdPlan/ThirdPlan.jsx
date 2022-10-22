@@ -1,34 +1,33 @@
 import classes from "./ThirdPlan.module.scss";
-import card_img from "../../assets/images/workerImg.jpg";
-import card_img2 from "../../assets/images/work2.jfif";
-import card_img3 from "../../assets/images/work3.jfif";
+import card_img from "../../assets/images/cargo1.jfif";
+import card_img2 from "../../assets/images/cargo2.jfif";
+import card_img3 from "../../assets/images/cargo3.jfif";
 import card_img4 from "../../assets/images/work4.jfif";
+import card_img5 from "../../assets/images/formula.png";
 import ProductImg from "../../assets/images/product.png";
 
 const ThirdPlan = () => {
   return (
     <div className={classes.thirdPlan_container}>
-      <h1 className={classes.ThirdPlan_heading}>ТОВАР СИЁСАТИНИ БОШҚАРИШ</h1>
+      <h1 className={classes.ThirdPlan_heading}>
+        Transport va ortish-tushirish mashinalari ishini birgalikda tashkil
+        etish
+      </h1>
       <h4 className="subTitle">
-        Маркетинг бошқаруви стратегик бошқарувдан ташқари инструментал
-        даражадаги бошқарувни, яъни маркетинг комплексининг тўрт элементи ёки
-        тўртта маркетинг воситасига нисбатан қарор қабул қилишни ҳам ўз ичига
-        олади. Ҳар бир элементга нисбатан қарорлар «тўплами» мос келувчи сиёсат
-        деб аталади. Маркетинг фаолиятида бундай қарорлар тўртта йўналишга
-        алоқадор бўлади: товар сиёсати, нарх сиёсати, тақсимот ва сотиш сиёсати,
-        коммуникация сиёсати.Товар фирманинг бозор таклифи учун асос
-        ҳисобланади, чунки айнан у – харидор учун фойдали бўлган хусусиятлар
-        соҳибидир. Шу сабабли товар сиёсати маркетинг қарорларининг асоси
-        ҳисобланиб, унинг атрофида нарх, товар харид қилиш шартлари ва уни ишлаб
-        чиқарувчидан якуний истеъмолчи томон ҳаракатлантириш усуллари билан
-        боғлиқ бошқа қарорлар шаклланади. Товар сиёсати бу – корхона товарлар
-        ишлаб чиқиш, товарлар ассортиментини шакллантириш, уларни бозорга
-        чиқариш ва ишлаб чиқаришдан олиб ташлашда амал қиладиган тамойиллардир
-        (9.1-расм). Товар сиёсати товарнинг рақобатли устунликларини
-        шакллантириш бўйича чора-тадбирлар ва стратегияларда намоён бўлади. У
-        товарни истеъмолчи учун қимматли қиладиган ва шу тариқа фирма учун мос
-        келувчи фойдани таъминлаган ҳолда у ёки бу эҳтиёжни қондирадиган товар
-        тавсифномаси яратишга йўналтирилади.
+        Omborlarda ortish-tushirish operatsiyalarini samarali tashkil etish
+        ya’ni ortish-tushirish mashinalari bilan transport ishini
+        muvofiqlashtirish omborlar logistikasining asosiy vazifalaridan biri
+        hisoblanadi. Agar ortish-tushirish mashinalarining ish unumdorligi
+        yuqori bo‘lib unga sarflanadigan vaqt omborga trasport vositalarini
+        yetib kelish intervaliga qaraganda kichik bo‘lsa, ortish-tushirish
+        mashinalari ortiqcha turib qoladi. Agar omborga transport vositalirini
+        yetib kelish intervali kichik bo‘lsa, yuk ortish yoki tushirish joyida
+        transport vositalari ortiqcha turib qoladilar. Ortishtushirish
+        mashinalari bilan transport vositalarini ishini optimal tashkil etish
+        masalalari bilan logistikada «Operatsiyalarni izlash» fanning «Yalpi
+        xizmat ko‘rsatish» boMimi shug‘ullanadi. Bu masalani hal etish uchun
+        transport vositalarini omborga yetib kelish intervalning qonuniyati
+        tajribada aniqlanadi
       </h4>
       <marquee behavior="" direction="">
         <div className={classes.thirdPlan_container_div}>
@@ -41,46 +40,11 @@ const ThirdPlan = () => {
           <img className={classes.card_images} src={card_img3} alt="" />
         </div>
       </marquee>
-      <p className="title">
-        Бошқача қилиб айтганда, товар сиёсати бу – корхонанинг ўз товарларини
-        бошқаришга ёндашуви. Товар сиёсатига қуйидаги қарорлар киради:
-      </p>
-      <ul>
-        <li className="subTitle">
-          корхонанинг у ўз ишида биринчи навбатда йўналтириладиган ўз товари
-          учун белгиланган сифат даражасини танлаши;
-        </li>
-        <li className="subTitle">
-          товарни бутлаш, тўпламга нималар кириши, нималар бўмаслиги, алоҳида
-          тўлов эвазига нималар таклиф қилиниши ва ҳ.к. ҳақида қарор қабул
-          қилиш;
-        </li>
-        <li className="subTitle">ўраб-қадоқлаш бўйича қарор қабул қилиш;</li>
-        <li className="subTitle">
-          товарлар учун савдо маркаларидан фойдаланиш;
-        </li>
-        <li className="subTitle">
-          товарлар ва хизматлар ассортиментини шакллантириш;
-        </li>
-        <li className="subTitle">
-          товарларни ишлаб чиқиш, янгилаш ва дифференциация қилиш;
-        </li>
-        <li className="subTitle">
-          эски маҳсулотларни элиминация қилиш (ассортиментдан чиқариш).
-        </li>
-      </ul>
-      <h4>2.1-расм. Товар сиёсатининг асосий масалалари</h4>
-      <img src={ProductImg} alt="" />
+      <div style={{ textAlign: "center" }}>
+        <img className={classes.card_images} src={card_img5} alt="" />
+      </div>
       <div className={classes.worksOfEconom}>
-        <h1 className="subTitle">
-          Корхонанинг ушбу масалаларни ҳал қилишга ёндашувлари унинг товар
-          сиёсатини белгилаб беради. Корхонанинг товар сиёсати унинг фойдалилиги
-          ва рақобатбардошлигига таъсир этади. Яхши ўйлаб чиқилган товар сиёсати
-          корхонага оптимал ассортимент шакллантириш, муваффақиятли товарларни
-          қўллаб-қувватлаш ва кераксиз товарлардан вақтида халос бўлиш,
-          товарлардан энг катта фойда олиш, янглик товарларни ўз вақтида ва
-          йўқотишларсиз киритиш имконини беради.
-        </h1>
+       
         <h2>
           Халқаро стандартлаштириш ташкилоти таърифига кўра, сифат бу –
           маҳсулотнинг унга таклиф этилаётган ёки шартлашилган эҳтиёжларни
