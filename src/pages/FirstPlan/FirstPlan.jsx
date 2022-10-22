@@ -7,7 +7,7 @@ import secondPlanImg from "../../assets/images/workerImg.jpg";
 export const FirstPlan = () => {
   return (
     <div className={classes.firstplan_wrapper}>
-      <h1 className="title">1.1.Фаннинг предмети ва мазмуни</h1>
+      <h1 className="title">Фаннинг предмети ва мазмуни</h1>
       <div className={classes.plan_container}>
         <div className={classes.left_plan_div}>
           <p>
